@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+        <Resource name="jdbc/MyOracleDB"
+              auth="Container"
+              type="javax.sql.DataSource"
+              maxTotal="100"
+              maxIdle="30"
+              maxWaitMillis="10000"
+              username="C##calc"
+              password="1234"
+              driverClassName="oracle.jdbc.driver.OracleDriver"
+                url="jdbc:oracle:thin:@//Oracle1:1521/xe"/>
+</Context>
